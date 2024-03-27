@@ -1,0 +1,23 @@
+.cover {
+    filter: brightness(.3);
+    width: 1920px; 
+    height: 850px;
+    position: absolute;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.263);
+}
+
+.banner {
+    position: absolute;
+    margin-top: 20px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: auto 400px auto;
+}
+
+.banner > img {
+    object-fit:cover;
+    display: inline-block;
+
+}
