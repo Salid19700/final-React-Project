@@ -1,0 +1,9 @@
+.position {
+    width: 1320px;
+    height: 186px;
+    position: absolute;
+    top: 534px;
+    border-radius: 12px;
+    gap: 24px;
+    display: flex;
+}

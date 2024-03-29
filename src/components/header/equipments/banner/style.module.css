@@ -1,5 +1,5 @@
 .title {
-    position:absolute;
+    position: absolute;
     top: 198px;
     width: 1320px!important;
     height: 172px!important;
@@ -8,4 +8,9 @@
     line-height: 86.4px!important;
     text-align: center!important;
     color: #ffffff!important;
+}
+
+.search {
+    position: absolute;
+    top: 398px;
 }
