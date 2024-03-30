@@ -1,0 +1,22 @@
+.container {
+    padding: 100px 0;
+    position: absolute;
+    top: 820px;
+    background: #F5F7FA;
+}
+
+.title {
+    width: 1320px;
+    height: 48px;
+    font-weight: 600 !important;
+    font-size: 40px !important;
+    line-height: 48px !important;
+    text-align: center !important;
+}
+
+.banner {
+    width: 1320px;
+    height: 264px;
+    gap: 24px;
+    display: flex;
+}

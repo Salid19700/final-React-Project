@@ -4,7 +4,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 
 import { BackGroundImg } from "./equipments/backGround/index";
 
-import { Box } from "@mui/material";
+import { Box, rgbToHex } from "@mui/material";
 
 import ContainerCss from "../container/style.module.css";
 import HeaderCSS from "./style.module.css";
@@ -18,7 +18,7 @@ export function Header() {
     <React.Fragment>
       <CssBaseline />
       <header>
-        <Box component="section" className={ContainerCss.contain}>
+        <Box component="section" className={ContainerCss.contain} sx={{backgroundColor: '#000000d9'}}>
           <NavigationBar />
           <BannerTitle />
           <TopCat />
