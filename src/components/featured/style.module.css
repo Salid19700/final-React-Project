@@ -1,0 +1,11 @@
+.content {
+  width: 648px;
+  height: 220px;
+  position: relative !important;
+  top: 98px !important;
+  left: 300px !important;
+  z-index: 100 !important;
+
+
+  overflow: visible !important;
+}
