@@ -1,0 +1,52 @@
+.boxitem {
+  position: absolute !important;
+  width: 312px;
+  height: 332px;
+  border: none;
+  box-shadow: none !important;
+}
+
+.secondbox {
+  width: 312px;
+  height: 242px;
+  position: absolute;
+  top: 90px;
+  z-index: 5;
+  border-radius: 12px;
+  border: 1px;
+  background: #FFFFFF;
+  border: 1px solid #EBEEF7
+}
+
+.img {
+  width: 264px !important;
+  height: 224px !important;
+  position: relative;
+  z-index: 6;
+  left: 24px;
+  gap: 0px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+  object-fit: scale-down;
+}
+
+.content {
+  width: 264px;
+  height: 64px;
+  position: relative !important;
+  top: 144px;
+  left: 24px;
+  gap: 8px;
+  opacity: 0px;
+}
+
+.title {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  line-height: 32px !important;
+  text-align: center !important;
+}
+
+.description {
+  text-align: center;
+}

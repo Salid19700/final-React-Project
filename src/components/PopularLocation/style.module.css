@@ -1,0 +1,18 @@
+.box {
+  position: absolute;
+  height: 782px;
+  top: 2588px;
+  gap: 50px;
+  opacity: 0px;
+}
+
+.title {
+  font-size: 40px !important;
+  font-weight: 600 !important;
+  line-height: 48px !important;
+  text-align: center !important;
+}
+
+.boxitem {
+    
+}
