@@ -1,10 +1,8 @@
-.contents {
-  width: 28px !important;
-  height: 196px !important;
-  top: 24px !important;
-  left: 220px !important;
-  gap: 21px;
-  opacity: 0px;
+.box {
+  width: 648px;
+  height: 220px;
+  position: absolute !important;
+  overflow: visible !important;
 }
 
 .image {
@@ -13,33 +11,50 @@
 }
 
 .boxitem {
+  width: 648px !important;
+  height: 220px !important;
+  position: absolute !important;
+  top: 98px !important;
+  left: 300px !important;
+  gap: 21px !important;
+  opacity: 0px !important;
+  background-color: red !important;
+}
+
+.boxitem {
   width: 214px !important;
   height: 220px !important;
-  z-index: 1 !important;
-  position: relative !important;
+  top: 0px !important;
   left: 220px !important;
   background: linear-gradient(
     90deg,
     #fff8e0 0%,
     rgba(255, 248, 224, 0) 100%
   ) !important;
+  border-left: 2px solid #ffbf00;
+}
+
+.contents {
+  height: 196px !important;
+  top: 24px !important;
+  left: 220px !important;
+  gap: 21px;
+  opacity: 0px;
 }
 
 .header {
   margin: 0 auto !important;
   width: 380px !important;
   height: 60px !important;
-  gap: 12px;
-  background-color: red;
+  color: 12px !important;
 }
 
 .title {
   margin: 0;
-  padding: 0;
+  padding: 12px 24px 12px 24px !important;
 }
 
 .title > li {
-  margin: 0 auto !important;
   display: inline-block !important;
 }
 
@@ -100,6 +115,44 @@
   font-weight: 600;
   line-height: 24px;
   text-align: left;
-  color: #191F33;
+  color: #191f33;
+  padding: 12px 24px 12px 24px !important;
+}
 
+.fact {
+  padding: 12px 24px 12px 24px !important;
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.factdetail {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #767e94;
+}
+
+.footer {
+  width: 428px;
+  padding: 12px 24px 12px 24px !important;
+  gap: 0px;
+  border-radius: 0px 0px 12px 0px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0px;
+  list-style-type: none;
+  border-top: 1px solid #ebeef7;
+  align-items: center;
+}
+
+.footer:first-child {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: #ff4f4f;
 }

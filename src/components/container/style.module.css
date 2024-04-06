@@ -1,6 +1,6 @@
 .contain {
-    width: 1320px;
-    height: 820px;
-    margin: 0 auto;
+    width: 1320px !important;
+    height: 820px !important;
+    margin: 0 auto !important;
     gap: 50px;
 }

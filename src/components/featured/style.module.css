@@ -1,11 +1,22 @@
-.content {
-  width: 648px;
-  height: 220px;
-  position: relative !important;
-  top: 98px !important;
-  left: 300px !important;
-  z-index: 100 !important;
+.contain {
+  position: absolute;
+  width: 1320px !important;
+  height: 1006px;
+  top: 1482px;
+  padding: 0px 0 100px 0;
+  box-shadow: 0px -1px 0px 0px #ebeef7 inset;
+  border-bottom: 1px solid #ebeef7;
+}
 
+.title {
+  font-size: 40px !important;
+  font-weight: 600 !important;
+  line-height: 48px !important;
+  text-align: center !important;
+  color: #191f33 !important;
+}
 
-  overflow: visible !important;
+.booton {
+  margin: 765px 0 0 0 !important;
+
 }
