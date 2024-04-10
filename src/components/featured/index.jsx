@@ -6,7 +6,7 @@ import ContainerCss from "../container/style.module.css";
 
 export function Feture() {
   return (
-    <Box className={feturCss.contain} component="section">
+    <Box className={feturCss.contain}>
       <Box className={ContainerCss.contain}>
         <Typography gutterBottom variant="h1" className={feturCss.title}>
           Featured Ads
