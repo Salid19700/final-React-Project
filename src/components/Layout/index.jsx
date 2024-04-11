@@ -4,6 +4,7 @@ import { Header } from '../header/Header';
 import { Main } from '../learning/main';
 import { Feture } from '../featured';
 import { PopularLocatin } from '../PopularLocation';
+import { CardBanner } from '../card';
 
 export function MainLaoyut() {
   return (
@@ -13,6 +14,7 @@ export function MainLaoyut() {
         <Main />
         <Feture />
         <PopularLocatin />
+        <CardBanner />
     </React.Fragment>
   );
 }
