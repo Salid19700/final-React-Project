@@ -5,6 +5,7 @@ import { Main } from '../learning/main';
 import { Feture } from '../featured';
 import { PopularLocatin } from '../PopularLocation';
 import { CardBanner } from '../card';
+import { FooterBar } from '../footer';
 
 export function MainLaoyut() {
   return (
@@ -15,6 +16,7 @@ export function MainLaoyut() {
         <Feture />
         <PopularLocatin />
         <CardBanner />
+        <FooterBar />
     </React.Fragment>
   );
 }

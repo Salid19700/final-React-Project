@@ -1,0 +1,38 @@
+.header {
+  width: 1920px;
+  height: 86px;
+  padding: 18px 300px 18px 300px;
+  background-color: white;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  border-right: 1px solid #dadde5;
+  padding: 0 20px 0 0 !important;
+}
+
+ul > li {
+  display: inline-block;
+  padding: 0 12px;
+}
+
+.rightBox {
+  display: flex;
+  align-items: center;
+  width: 686px !important;
+  height: 48px !important;
+  padding: 32px;
+  flex: 1;
+}
+
+.leftBox {
+  display: flex;
+  align-items: center;
+  width: 267px;
+  height: 50px;
+}

@@ -1,0 +1,41 @@
+ul {
+    list-style-type: none;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.box {
+  width: 1320px;
+  height: 488px;
+  position: relative !important;
+  top: 4587px;
+  padding: 100px 0 0 0;
+  gap: 100px;
+  opacity: 0px;
+  background-color: rgb(218, 218, 218);
+  margin: 0 auto;
+}
+
+.contactbox {
+  width: 347px !important;
+  height: 120px !important;
+  gap: 12px !important;
+  opacity: 0px;
+}
+
+.content {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  text-align: left !important;
+  color: #767e94;
+  padding: 4px 0; 
+}
+
+.contenttitle {
+font-size: 20px !important;
+font-weight: 600 !important;
+line-height: 32px !important;
+text-align: left !important;
+color: #191F33;
+}
