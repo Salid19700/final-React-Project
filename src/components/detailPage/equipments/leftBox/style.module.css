@@ -4,7 +4,6 @@
   position: absolute;
   left: 300px;
   top: 336px;
-
 }
 
 .header {
@@ -37,13 +36,48 @@
 }
 
 .title {
-    padding: 12px 0 20px 0;
+  padding: 12px 0 20px 0;
   font-size: 32px !important;
   font-weight: 60 !important;
   line-height: 40px !important;
   text-align: left !important;
 }
 
-.infotitle > li{
-    padding: 0 10px 0 0;
+.infotitle > li {
+  padding: 0 10px 0 0;
 }
+
+.titledescription {
+  margin-top: 24px !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  line-height: 32px !important;
+  text-align: left !important;
+}
+
+.description {
+  margin-top: 24px !important;
+  color: #767e94;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 24px !important;
+  text-align: left !important;
+}
+
+.feturtitle {
+  margin-top: 24px !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  line-height: 32px !important;
+  text-align: left !important;
+}
+
+.feturbox {
+  width: 872px;
+  height: 144px;
+}
+
+.feturbox > ul >li {
+  display: inline-flex;
+}
+
