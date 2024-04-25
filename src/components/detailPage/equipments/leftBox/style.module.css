@@ -1,0 +1,49 @@
+.boxitem {
+  width: 872px;
+  height: 1548px;
+  position: absolute;
+  left: 300px;
+  top: 336px;
+
+}
+
+.header {
+  width: 872px;
+  height: 120px;
+  padding: 0 0 20px 0;
+}
+
+.tages > li:first-child {
+  padding: 5px 12px;
+  margin-right: 10px;
+  background-color: #fff2cc;
+  border-radius: 100px;
+  color: #664c00;
+}
+
+.tages > li:nth-child(2) {
+  padding: 4px 8px 4px 4px;
+  margin-right: 10px;
+  border-radius: 100px;
+  background-color: #ffcccc;
+  color: #662020;
+}
+
+.tages > li:last-child {
+  padding: 4px 10px 4px 4px;
+  border-radius: 100px;
+  background-color: #e4f9e0;
+  color: #104e00;
+}
+
+.title {
+    padding: 12px 0 20px 0;
+  font-size: 32px !important;
+  font-weight: 60 !important;
+  line-height: 40px !important;
+  text-align: left !important;
+}
+
+.infotitle > li{
+    padding: 0 10px 0 0;
+}

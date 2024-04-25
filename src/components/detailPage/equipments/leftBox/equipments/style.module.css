@@ -1,0 +1,51 @@
+.boxitem {
+  width: 872px;
+  height: 640px;
+  background-color: #ebeef7;
+  margin-top: 36px;
+  margin-bottom: 24px;
+}
+
+.mainimg {
+  margin: 0 112px;
+  height: 640px;
+  width: 648px;
+}
+
+.fullicone {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  top: -600px;
+  left: 800px;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: black;
+}
+
+.tumbnail {
+  width: 872px;
+  height: 112px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cares {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  border-radius: 4px;
+  padding: 12px;
+  background-color: #EBEEF7;
+}
+
+.imgbar {
+  margin: 0 5px;
+  opacity: 30%;
+}
+
+.imgbar:hover {
+  opacity: 90%;
+  border: 5px solid rgba(0, 0, 0, 0.274);
+}
